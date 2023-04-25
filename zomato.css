@@ -60,7 +60,6 @@ body{
     border-radius: 8px;
     box-shadow:rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;;
 }
-
 .hero__text{
     font-size:  30px;
     font-weight: 800;
@@ -93,18 +92,147 @@ body{
 .explore__menu__text{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 30px;
     text-align: center;
     font-weight: 800;
     margin: 20px 0;
     color: #1d3557;
 }
 
+.explore__resta__lists{
+    margin-top: 30px;
+}
+
+.expolre__img__resta{
+    width: 100%;
+    display: flex;
+}
+
+.image1{
+    width: 150px;
+    border-radius: 5px;
+    margin: 20px 5px;
+    height: 80px;
+    box-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+.image2{
+    width: 200px;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);;
+}
+.explore__resta__text{
+    width: 100%;
+}
+.resta__text{
+    width: 100%;
+    font-weight:20px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1d3557;
+}
+
+.expolre__img__resta__row2{
+    width: 100%;
+    margin-top: -30px;
+}
+
+.image3{
+    width: 200px;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);;
+}
+
+.image4{
+    width: 150px;
+    border-radius: 5px;
+    margin: 20px 5px;
+    height: 80px;
+    box-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.text__email{
+    margin-top: 20px;
+    font-weight: 20px;
+    font-size: 30px;
+}
+.email__input{
+    border: 1px solid #ee89a0;
+    background-color: #fcedf0;
+    color: #1d3557;
+    font-weight: 700;
+    padding: 0.7rem;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.quote__image__overplay{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    border-radius: 13px;
+    background-color: #0a4065;
+    opacity: 49%;
+}
+.quote__container{
+    position: relative;
+    color: #ebf2ff;
+    margin-top: 4rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    border-radius: 13px;
+    background: url(https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80) center center / cover no-repeat; 
+}
+footer{
+    border-radius:1rem 1rem 0 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+}
+footer>img{
+    width: 300px;
+    filter: brightness(0) invert(1);
+}
+footer>ul{
+    margin-top: -1rem;
+    color: #fff;
+}
+footer>ul>li{
+    margin: 5px 0;
+}
+
+
 
 @media (min-width:768px){
-    .explore__menu{
+    .text__email{
+        margin-left: 300px;
+    }
+    .email__input{
+        margin-left: 250px;
+        padding-left: -20px;
+    }
+    .explore__resta__lists{
+        display: flex;
+        justify-items: space-between;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .expolre__img__resta__row2{
         display: flex;
     }
-    
+    .image3{
+        margin: 20px 0;
+    }
+
     .navbar{
         justify-content:space-between ;
         padding: 10px 30px;
@@ -120,6 +248,59 @@ body{
 }
 
 @media (min-width: 1024px){
+    .explore__menu{
+        margin-left: 250px;
+        margin-top: 50px;
+        width: 60%;
+    }
+    footer{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+    }
+    .quote__image__overplay{
+        height: 300px;
+    }
+    .quote__container{
+        height: 300px;
+        width: 75%;
+        margin-left: 190px;
+    }
+    .text__email{
+        margin-top: 35px;
+        margin-left: 600px;
+        font-size: 35px;
+        color: #1d3557;
+    }
+    .email__input{
+        margin-top: 30px;
+        margin-left: 500px;
+        padding-top: -50PX;
+        align-items: baseline;
+        font-size: 30px;
+        align-items: baseline;
+    }
+    
+
+    .explore__resta__lists{
+        margin-top: 50px;
+        display: flex;
+        justify-items: space-between;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .image__resta__{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .resta__text{
+        font-size: 50px;
+        margin-left: 150px;
+    }
+    .explore__menu__text{
+        width: 100%;
+        font-size: 50px;
+    }
     .navbar__brand{
         width: 150px;
     }
